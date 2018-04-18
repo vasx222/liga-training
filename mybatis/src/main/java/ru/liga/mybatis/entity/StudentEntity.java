@@ -6,18 +6,19 @@ public class StudentEntity {
     private Long id;
     private String fio;
     private String gender;
-    private String department;
+    private Long departmentId;
     private String studentGroupId;
     private LocalDate birthday;
 
     public StudentEntity() {
     }
 
-    public StudentEntity(Long id, String fio, String gender, String faculty, String studentGroupId, LocalDate birthday) {
+    public StudentEntity(Long id, String fio, String gender, Long departmentId,
+                         String studentGroupId, LocalDate birthday) {
         this.id = id;
         this.fio = fio;
         this.gender = gender;
-        this.department = faculty;
+        this.departmentId = departmentId;
         this.studentGroupId = studentGroupId;
         this.birthday = birthday;
     }
@@ -46,12 +47,12 @@ public class StudentEntity {
         this.gender = gender;
     }
 
-    public String getDepartment() {
-        return department;
+    public Long getDepartmentId() {
+        return departmentId;
     }
 
-    public void setDepartment(String department) {
-        this.department = department;
+    public void setDepartment(Long departmentId) {
+        this.departmentId = departmentId;
     }
 
     public String getStudentGroupId() {

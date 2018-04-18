@@ -61,6 +61,7 @@ public class TestDaoSpringConfig {
     public SqlSessionFactory sqlSessionFactory() throws Exception {
         SqlSessionFactoryBean sessionFactory = new SqlSessionFactoryBean();
         sessionFactory.setDataSource(dataSource());
+        sessionFactory.setTypeHandlersPackage("ru.liga.mybatis.dao.typehandler");
         sessionFactory.setConfigLocation(new ClassPathResource("config/mybatisConfig.xml"));
         return sessionFactory.getObject();
     }

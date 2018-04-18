@@ -1,0 +1,15 @@
+ru/liga/domain/Department.class
+ru/liga/dao/mapper/DepartmentMapper.class
+ru/liga/dao/DepartmentDao.class
+ru/liga/dao/mapper/StudentMapper.class
+ru/liga/domain/Employee.class
+ru/liga/entity/DepartmentEntity.class
+ru/liga/dao/EmployeeDao.class
+ru/liga/repository/DbDepartmentRepository.class
+ru/liga/dao/mapper/EmployeeMapper.class
+ru/liga/domain/Student.class
+ru/liga/repository/DepartmentRepository.class
+ru/liga/entity/EmployeeEntity.class
+ru/liga/config/TestDaoSpringConfig.class
+ru/liga/entity/StudentEntity.class
+ru/liga/dao/StudentDao.class

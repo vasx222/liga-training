@@ -1,0 +1,15 @@
+/home/vaskon/prog/JAVA/java_league/MyBatis_hw1/liga-training/spring-jdbc/src/main/java/ru/liga/entity/DepartmentEntity.java
+/home/vaskon/prog/JAVA/java_league/MyBatis_hw1/liga-training/spring-jdbc/src/main/java/ru/liga/domain/Department.java
+/home/vaskon/prog/JAVA/java_league/MyBatis_hw1/liga-training/spring-jdbc/src/main/java/ru/liga/dao/mapper/DepartmentMapper.java
+/home/vaskon/prog/JAVA/java_league/MyBatis_hw1/liga-training/spring-jdbc/src/main/java/ru/liga/repository/DbDepartmentRepository.java
+/home/vaskon/prog/JAVA/java_league/MyBatis_hw1/liga-training/spring-jdbc/src/main/java/ru/liga/dao/mapper/EmployeeMapper.java
+/home/vaskon/prog/JAVA/java_league/MyBatis_hw1/liga-training/spring-jdbc/src/main/java/ru/liga/domain/Student.java
+/home/vaskon/prog/JAVA/java_league/MyBatis_hw1/liga-training/spring-jdbc/src/main/java/ru/liga/dao/EmployeeDao.java
+/home/vaskon/prog/JAVA/java_league/MyBatis_hw1/liga-training/spring-jdbc/src/main/java/ru/liga/config/TestDaoSpringConfig.java
+/home/vaskon/prog/JAVA/java_league/MyBatis_hw1/liga-training/spring-jdbc/src/main/java/ru/liga/dao/StudentDao.java
+/home/vaskon/prog/JAVA/java_league/MyBatis_hw1/liga-training/spring-jdbc/src/main/java/ru/liga/entity/EmployeeEntity.java
+/home/vaskon/prog/JAVA/java_league/MyBatis_hw1/liga-training/spring-jdbc/src/main/java/ru/liga/repository/DepartmentRepository.java
+/home/vaskon/prog/JAVA/java_league/MyBatis_hw1/liga-training/spring-jdbc/src/main/java/ru/liga/dao/mapper/StudentMapper.java
+/home/vaskon/prog/JAVA/java_league/MyBatis_hw1/liga-training/spring-jdbc/src/main/java/ru/liga/domain/Employee.java
+/home/vaskon/prog/JAVA/java_league/MyBatis_hw1/liga-training/spring-jdbc/src/main/java/ru/liga/dao/DepartmentDao.java
+/home/vaskon/prog/JAVA/java_league/MyBatis_hw1/liga-training/spring-jdbc/src/main/java/ru/liga/entity/StudentEntity.java

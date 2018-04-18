@@ -1,7 +1,7 @@
 package ru.liga.domain;
 
 public class Employee {
-    private final String id;
+    private final Long id;
     private final String fio;
     private final String gender;
     private final String department;
@@ -9,7 +9,7 @@ public class Employee {
     private final String position;
     private final String birthday;
 
-    public Employee(String id, String fio, String gender, String faculty, String degree, String position, String birthday) {
+    public Employee(Long id, String fio, String gender, String faculty, String degree, String position, String birthday) {
         this.id = id;
         this.fio = fio;
         this.gender = gender;
@@ -18,4 +18,6 @@ public class Employee {
         this.position = position;
         this.birthday = birthday;
     }
+
+
 }

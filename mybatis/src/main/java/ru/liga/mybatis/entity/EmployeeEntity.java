@@ -6,16 +6,17 @@ public class EmployeeEntity {
     private String id;
     private String fio;
     private String gender;
-    private String department;
+    private Long departmentId;
     private String degree;
     private String position;
     private LocalDate birthday;
 
-    public EmployeeEntity(String id, String fio, String gender, String faculty, String degree, String position, LocalDate birthday) {
+    public EmployeeEntity(String id, String fio, String gender, Long departmentId,
+                          String degree, String position, LocalDate birthday) {
         this.id = id;
         this.fio = fio;
         this.gender = gender;
-        this.department = faculty;
+        this.departmentId = departmentId;
         this.degree = degree;
         this.position = position;
         this.birthday = birthday;
@@ -36,8 +37,8 @@ public class EmployeeEntity {
         return gender;
     }
 
-    public String getDepartment() {
-        return department;
+    public Long getDepartmentId() {
+        return departmentId;
     }
 
     public String getDegree() {
@@ -50,5 +51,33 @@ public class EmployeeEntity {
 
     public LocalDate getBirthday() {
         return birthday;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public void setFio(String fio) {
+        this.fio = fio;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
+    public void setDepartmentId(Long departmentId) {
+        this.departmentId = departmentId;
+    }
+
+    public void setDegree(String degree) {
+        this.degree = degree;
+    }
+
+    public void setPosition(String position) {
+        this.position = position;
+    }
+
+    public void setBirthday(LocalDate birthday) {
+        this.birthday = birthday;
     }
 }

@@ -1,0 +1,11 @@
+ru/liga/mybatis/dao/DepartmentDao.class
+ru/liga/mybatis/entity/StudentEntity.class
+ru/liga/mybatis/dao/EmployeeDao.class
+ru/liga/mybatis/domain/Department.class
+ru/liga/mybatis/config/TestDaoSpringConfig.class
+ru/liga/mybatis/domain/Employee.class
+ru/liga/mybatis/entity/EmployeeEntity.class
+ru/liga/mybatis/domain/Student.class
+ru/liga/mybatis/dao/StudentDao.class
+ru/liga/mybatis/entity/DepartmentEntity.class
+ru/liga/mybatis/dao/typehandler/LocalDateTypeHandler.class

@@ -43,21 +43,12 @@
         <profile>
             <id>postgres</id>
             <properties>
-                <database.url>jdbc:postgresql://127.0.0.1:5432/postgres?currentSchema=liga</database.url>
+                <database.url>jdbc:postgresql://127.0.0.1:5432/postgres</database.url>
                 <database.driver>org.postgresql.Driver</database.driver>
                 <database.user>postgres</database.user>
-                <database.password>q</database.password>
+                <database.password>passpostgres</database.password>
+                <database.database>postgres</database.database>
                 <database.schema>liga</database.schema>
-            </properties>
-        </profile>
-        <profile>
-            <id>sqlite</id>
-            <properties>
-                <database.url>jdbc:sqlite:C:/projects/liga-training/botdb.s3db</database.url>
-                <database.driver>org.sqlite.JDBC</database.driver>
-                <database.user></database.user>
-                <database.password></database.password>
-                <database.schema></database.schema>
             </properties>
         </profile>
     </profiles>
@@ -79,11 +70,6 @@
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
             <version>42.1.4</version>
-        </dependency>
-        <dependency>
-            <groupId>org.xerial</groupId>
-            <artifactId>sqlite-jdbc</artifactId>
-            <version>3.16.1</version>
         </dependency>
 
         <!--spring-->

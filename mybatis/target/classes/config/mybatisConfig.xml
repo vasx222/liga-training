@@ -5,6 +5,7 @@
 <configuration>
     <typeAliases>
         <typeAlias type="ru.liga.mybatis.entity.DepartmentEntity" alias="DepartmentEntity"/>
+        <typeAlias type="ru.liga.mybatis.entity.EmployeeEntity" alias="EmployeeEntity"/>
     </typeAliases>
     <typeHandlers>
         <typeHandler handler="org.apache.ibatis.type.InstantTypeHandler"/>
@@ -22,5 +23,6 @@
     </typeHandlers>
     <mappers>
         <mapper resource="dao/DepartmentDao.xml"/>
+        <mapper resource="dao/EmployeeDao.xml"/>
     </mappers>
 </configuration>

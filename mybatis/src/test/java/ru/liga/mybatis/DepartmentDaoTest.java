@@ -3,6 +3,7 @@ package ru.liga.mybatis;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
@@ -26,7 +27,7 @@ public class DepartmentDaoTest {
 
     @Test
     public void selectByFoundationYear() {
-        assertEquals(1, departmentDao.selectByFoundationYear(1933).size());
+        assertEquals(4, departmentDao.select(1L).getEmployees().size());
     }
 
 }

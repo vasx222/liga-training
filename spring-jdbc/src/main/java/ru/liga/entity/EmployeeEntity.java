@@ -3,19 +3,20 @@ package ru.liga.entity;
 import java.time.LocalDate;
 
 public class EmployeeEntity {
-    private String id;
+    private Long id;
     private String fio;
     private String gender;
-    private String department;
+    private Long departmentId;
     private String degree;
     private String position;
     private LocalDate birthday;
 
-    public EmployeeEntity(String id, String fio, String gender, String faculty, String degree, String position, LocalDate birthday) {
+    public EmployeeEntity(Long id, String fio, String gender, Long departmentId,
+                          String degree, String position, LocalDate birthday) {
         this.id = id;
         this.fio = fio;
         this.gender = gender;
-        this.department = faculty;
+        this.departmentId = departmentId;
         this.degree = degree;
         this.position = position;
         this.birthday = birthday;
@@ -24,7 +25,7 @@ public class EmployeeEntity {
     public EmployeeEntity() {
     }
 
-    public String getId() {
+    public Long getId() {
         return id;
     }
 
@@ -36,8 +37,8 @@ public class EmployeeEntity {
         return gender;
     }
 
-    public String getDepartment() {
-        return department;
+    public Long getDepartmentId() {
+        return departmentId;
     }
 
     public String getDegree() {
